@@ -14,9 +14,11 @@ Each question you ask a user has a cost. Users may not use the form if it is too
 * Could this block a user from continuing?
 * If it is required, what happens if the answer is not true? 
 
-##Help text
+##Labels and other text
 
-Put help text in a localisation file in the project. If there is not a file, create on in the config/locales folder called forms.yml. See the Rails docs for more info. [http://guides.rubyonrails.org/i18n.html#translations-for-active-record-models](http://guides.rubyonrails.org/i18n.html#translations-for-active-record-models)
+Put form text such as labels and help text in a localisation file in the project. If there is not a file, create on in the config/locales folder called forms.yml. See the Rails docs for more info. [http://guides.rubyonrails.org/i18n.html#translations-for-active-record-models](http://guides.rubyonrails.org/i18n.html#translations-for-active-record-models)
+
+Help text is the text that goes with a field explaining what it is for and giving guidance on how to fill it in. For accessibilty, always use a label with a form field, don't rely solely on placeholders.
 
 ## Forms of address
 
